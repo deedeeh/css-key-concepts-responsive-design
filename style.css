@@ -18,6 +18,10 @@ h1 {
     font-size: 2.25rem;
 }
 
+body > p {
+    display: none;
+}
+
 p {
     font-size: 0.75rem;
 }
@@ -38,3 +42,42 @@ img {
     justify-content: space-evenly;
     
 }
+
+@media screen and (min-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.50rem;
+    }
+    body > p {
+        display: block;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 3.75rem;
+    }
+    h2 {
+        font-size: 2.50rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    p {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--dark);
+      color: var(--light);
+    }
