@@ -100,7 +100,7 @@ section {
         justify-content: space-evenly;
     }
     li a:hover {
-        color: var(--coral)
+        color: var(--coral);
     }
     section {
         margin: 0 1rem;
@@ -124,6 +124,6 @@ section {
 
 @media screen and (prefers-color-scheme: dark) {
     body {
-      background-color: var(--dark);
-      color: var(--light);
+        background-color: var(--dark);
+        color: var(--light);
     }
